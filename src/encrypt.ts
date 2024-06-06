@@ -1,4 +1,6 @@
-import { AES, MD5, enc, mode, pad } from 'crypto-js'
+import pkg from 'crypto-js'
+
+const { AES, MD5, enc, mode, pad } = pkg
 
 /**
  * aes加密
